@@ -1,0 +1,275 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: transparent;
+  padding: 30px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Hero Banner */
+main section:first-of-type {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('./images/banner.png') center center / cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 180px 20px 120px;
+  position: relative;
+}
+
+main section:first-of-type h1 {
+  font-size: 120px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+main section:first-of-type span {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+main section:first-of-type button {
+  margin-top:
+
+/* Quotes / Testimonial Section */
+.testimonial {
+  background-color: #C271FF;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+  font-size: 22px;
+  font-weight: 400;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.5;
+}
+
+.testimonial h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.testimonial p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+.popular-section {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.popular-wrapper {
+  max-width: 1228px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.popular-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #071629;
+}
+
+.popular-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.popular-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.popular-card-content {
+  padding: 16px;
+}
+
+.popular-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #071629;
+  margin-bottom: 8px;
+}
+
+.popular-card-meta {
+  font-size: 14px;
+  color: #6c6c6c;
+  display: flex;
+  justify-content: space-between;
+}
+
+.membership-section {
+  background-color: #071629;
+  color: #ffffff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.membership-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.membership-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.membership-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.feature-icon {
+  width: 56px;
+  height: 56px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 28px;
+  color: #c271ff; /* Accent color */
+}
+
+.feature-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.feature-text {
+  font-size: 14px;
+  opacity: 0.75;
+  max-width: 280px;
+}
+
+.faq-section {
+  background-color: #ffffff;
+  color: #071629;
+  padding: 80px 0;
+}
+
+.faq-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.faq-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.footer__social {
+  display: flex;
+  gap: .75rem;
+}
+.footer__copy {
+  opacity: .6;
+  font-size: .875rem;
+  margin-top: 1rem;
+  text-align: center;
+}
