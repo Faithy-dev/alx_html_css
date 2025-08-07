@@ -1,0 +1,204 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+header {
+  background: #1a1a1a;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #fff;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Hero */
+.hero {
+  background-color: #181818;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+/* What we do */
+.what-we-do {
+  text-align: center;
+}
+
+.section-description {
+  margin: 20px auto;
+  max-width: 600px;
+  color: #bbb;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.service {
+  max-width: 200px;
+}
+
+.service span {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+  color: red;
+}
+
+/* Our results */
+.our-results {
+  text-align: center;
+  background-color: #111;
+}
+
+.pentagons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.pentagon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: red;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.pentagon span {
+  font-size: 18px;
+}
+
+.pentagon p {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* Contact */
+.contact {
+  background: #1a1a1a;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px;
+  font-size: 1em;
+  background: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #0f0f0f;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-content .logo {
+  font-size: 1.2em;
+}
+
+.footer-content .socials span {
+  font-size: 24px;
+  margin: 0 10px;
+  color: red;
+  cursor: pointer;
+}
+
+footer p {
+  margin-top: 10px;
+  color: #888;
+}
